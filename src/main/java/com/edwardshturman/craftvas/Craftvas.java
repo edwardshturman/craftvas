@@ -12,14 +12,9 @@ public final class Craftvas extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
         Bukkit.getPluginManager().registerEvents(this, this);
+        saveDefaultConfig();
         registerCommand("meow", new Meow());
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
     }
 
     @EventHandler
