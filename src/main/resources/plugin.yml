@@ -1,5 +1,5 @@
 name: Craftvas
-version: '0.3.0'
+version: '0.4.0'
 main: com.edwardshturman.craftvas.Craftvas
 description: Integrate with the Canvas LMS
 author: Edward Shturman
@@ -19,5 +19,5 @@ commands:
     permission: craftvas.meow
   canvas:
     description: "A set of utility commands for interfacing with the Canvas API"
-    usage: "/canvas"
+    usage: "/canvas <url [url] | token [token]>"
     permission: craftvas.canvas

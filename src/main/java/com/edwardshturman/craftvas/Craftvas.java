@@ -15,7 +15,7 @@ public final class Craftvas extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(this, this);
         saveDefaultConfig();
         registerCommand("meow", new Meow());
-        registerCommand("canvas", new Canvas());
+        registerCommand("canvas", new Canvas(this));
     }
 
     @EventHandler
