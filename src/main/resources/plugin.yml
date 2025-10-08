@@ -1,7 +1,16 @@
 name: Craftvas
-version: '0.1.0'
+version: '0.2.0'
 main: com.edwardshturman.craftvas.Craftvas
 description: Integrate with the Canvas LMS
 author: Edward Shturman
 website: https://github.com/edwardshturman/craftvas
 api-version: '1.21'
+permissions:
+  craftvas.meow:
+    description: "Broadcast a meow"
+    default: op
+commands:
+  meow:
+    description: "Broadcast a meow"
+    usage: "/meow"
+    permission: craftvas.meow
