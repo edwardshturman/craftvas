@@ -1,7 +1,7 @@
-name: craftvas
-version: '1.0-SNAPSHOT'
+name: Craftvas
+version: '0.1.0'
 main: com.edwardshturman.craftvas.Craftvas
-api-version: '1.21'
-authors: [ Edward Shturman ]
 description: Integrate with the Canvas LMS
-website: https://edwardshturman.com
+author: Edward Shturman
+website: https://github.com/edwardshturman/craftvas
+api-version: '1.21'
